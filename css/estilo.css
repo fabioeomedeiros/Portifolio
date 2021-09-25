@@ -52,6 +52,7 @@ main#container {
 
 #tema input {
     padding: 10px 20px;
+    margin-left: 50px;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -76,3 +77,10 @@ section#content {
     text-decoration: none;
 }
 
+/* ======================================================================================= */
+/* Tema claro */
+
+.light #container {
+    background-color: var(--cor0);
+    color: var(--cor1);
+}
